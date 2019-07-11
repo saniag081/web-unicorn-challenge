@@ -67,12 +67,12 @@ ul{
     width: 12%;
     display: flex;
     justify-content: center;
-    box-shadow: 2px  #666;
+    box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.1);
 
     &-logo{
         width: 300px;
         margin-top: 31px;
-        
+
         img{
             width: 100%;
         }
@@ -89,4 +89,19 @@ ul{
 
 .section-into{
     margin-left: 12%;
+}
+
+.header{
+    height: 50px;
+    &-menu{
+        margin-right: 70px;
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+            li{
+                padding: 15px 25px;
+            }
+        }
+    }
 }
