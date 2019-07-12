@@ -60,7 +60,7 @@ ul {
   height: 100vh;
   background: #FCFCFC;
   position: fixed;
-  width: 12%;
+  width: 10%;
   display: flex;
   justify-content: center;
   box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.1);
@@ -81,22 +81,42 @@ ul {
 }
 
 .section-into {
-  margin-left: 12%;
+  margin-left: 10%;
 }
 
-.header {
+.section-top {
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.1);
+}
+.section-top-header {
   height: 50px;
 }
-.header-menu {
-  margin-right: 70px;
+.section-top-header-menu {
+  margin-right: 90px;
 }
-.header-menu ul {
+.section-top-header-menu ul {
   display: flex;
   justify-content: flex-end;
   list-style: none;
 }
-.header-menu ul li {
+.section-top-header-menu ul li {
   padding: 15px 25px;
+}
+.section-top-container {
+  padding: 0 170px 20px 140px;
+}
+.section-top-container-title {
+  display: inline-block;
+  width: 400px;
+}
+.section-top-container-title h1 {
+  font-size: 55px;
+}
+.section-top-container-image {
+  margin-top: 70px;
+  padding: 90px;
+  float: right;
+  background: #e92042;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
