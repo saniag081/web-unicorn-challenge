@@ -130,3 +130,32 @@ ul{
     }
 }
 
+.central-content{
+    padding: 30px;
+    background: #fff;
+        &-container-top{
+            text-align: start;
+            &-box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #fff;
+                width: 300px;
+                margin: 30px;
+                margin-left: 200px;
+                box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.3);
+                border-radius: 9px;;
+                &-image{
+                    padding: 10px;
+                }
+            }
+            &-box:first-child{
+                margin-left: 100px;                                                      
+            }
+        }
+
+        &-image{
+                float: right;
+                margin-right: 15%;
+        }
+}
