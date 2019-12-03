@@ -136,6 +136,7 @@ ul {
   margin-left: 200px;
   box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.3);
   border-radius: 9px;
+  padding: 0 3px;
 }
 .central-content-container-top-box-image {
   padding: 10px;
@@ -146,6 +147,23 @@ ul {
 .central-content-image {
   float: right;
   margin-right: 15%;
+}
+
+.section__central__bottom {
+  padding: 140px 70px 70px;
+}
+.section__central__bottom h2 {
+  font-size: 40px;
+}
+.section__central__bottom__container {
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  border-radius: 9px;
+  width: 500px;
+  line-height: 25px;
+}
+.section__central__bottom__container span {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
