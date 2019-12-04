@@ -121,6 +121,7 @@ ul {
 
 .central-content {
   padding: 30px;
+  padding-bottom: 10%;
   background: #fff;
 }
 .central-content-container-top {
@@ -164,6 +165,28 @@ ul {
 }
 .section__central__bottom__container span {
   font-weight: 700;
+}
+
+.section__bottom {
+  text-align: center;
+}
+.section__bottom h2 {
+  font-size: 40px;
+}
+.section__bottom__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section__bottom__container div img {
+  border-radius: 9px;
+}
+
+.line {
+  background: #e92042;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

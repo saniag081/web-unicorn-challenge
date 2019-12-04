@@ -132,6 +132,7 @@ ul{
 
 .central-content{
     padding: 30px;
+    padding-bottom: 10%;
     background: #fff;
         &-container-top{
             text-align: start;
@@ -176,4 +177,28 @@ ul{
             font-weight: 700;
         }
     }
+}
+
+.section__bottom{
+    text-align: center;
+    h2{
+        font-size: 40px;
+    }
+    &__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div{
+            img{
+                border-radius: 9px;
+            }
+        }
+    }
+}
+
+.line{
+    background: #e92042;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
 }
